@@ -1,11 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T11:06:52.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SP0rPd3gVpgOljgh8ZO9" version="20.8.14" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T09:43:37.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KlNu_jx-L8KfkJ7kThF5" version="20.8.16" type="github">
   <diagram name="第 1 页" id="QjKQY6qcrEJxLfmgZOG7">
     <mxGraphModel dx="1306" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1C53u4pKbh7CQnjp5VVv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-2" value="RPC&amp;nbsp; &amp;nbsp;&lt;br&gt;BatchApprove" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1C53u4pKbh7CQnjp5VVv-1" target="J-PQ_1VutNqCWmYV-L7d-1">
+          <mxGeometry x="-0.1429" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1C53u4pKbh7CQnjp5VVv-1" target="J-PQ_1VutNqCWmYV-L7d-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1C53u4pKbh7CQnjp5VVv-1" value="实验复检状态操作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J-PQ_1VutNqCWmYV-L7d-1" target="J-PQ_1VutNqCWmYV-L7d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-1" value="修改实验状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-PQ_1VutNqCWmYV-L7d-3" target="J-PQ_1VutNqCWmYV-L7d-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-3" value="根据策略判断实验是否通过，发送lar通知" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-PQ_1VutNqCWmYV-L7d-5" target="J-PQ_1VutNqCWmYV-L7d-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-5" value="返回" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-PQ_1VutNqCWmYV-L7d-7" target="J-PQ_1VutNqCWmYV-L7d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J-PQ_1VutNqCWmYV-L7d-7" target="J-PQ_1VutNqCWmYV-L7d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-7" value="跳过实验，取消实验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J-PQ_1VutNqCWmYV-L7d-9" target="J-PQ_1VutNqCWmYV-L7d-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-9" value="修改review状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-12" value="实验状态为通过，且为自动开启实验则开启实验" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-PQ_1VutNqCWmYV-L7d-17" target="J-PQ_1VutNqCWmYV-L7d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-PQ_1VutNqCWmYV-L7d-17" value="添加操作历史" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
